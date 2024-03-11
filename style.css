@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+
+.wrapper{
+    background-color:hsl(213, 19%, 18%);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.star-icon{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color:hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-1{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: hsl(217, 12%, 63%);
+    display: grid;
+    gap: 20px;
+}
+
+
+.header-text{
+    font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+
+.p-text{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rating{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.wrapper-2{
+    display: none;
+    background-color:hsl(213, 19%, 18%);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+
+
+.t-text{
+    background-color:hsl(216, 12%, 8%) ;
+    color:hsl(25, 97%, 53%) ;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: fit-content;
+    margin-left: 65px;
+    margin-top: 20px;
+
+}
+
+.buttons{
+    padding: 10px 20px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color:hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(216, 12%, 54%);
+    margin-bottom: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.buttons:hover{
+    background-color: hsl(217, 12%, 63%);
+}
+
+.active, .active:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+
+.s-button{
+    border-radius: 20px;
+    width: 23rem ;
+    height: 40px;
+    background-color:hsl(25, 97%, 53%) ;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-button:hover{
+    background-color: white;
+color:hsl(25, 97%, 53%);
+}
+
+
+@media screen and (max-width: 375px){
+    .wrapper, .wrapper-2{
+        width: 345px;
+    }    
+    .t-text{
+        margin-left: 55px;
+    }
+    .buttons{
+        padding: 10px 20px;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        background-color:hsl(216, 12%, 8%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: hsl(216, 12%, 54%);
+        margin-bottom: 15px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .s-button {
+        width: 19rem;
+         }
+}
